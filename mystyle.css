@@ -1,15 +1,42 @@
-<link rel="stylesheet" href="styles.css">
-body {
-  background-color: lavender;
+ul {
+  list-style-type: none;
+  font-weight:900;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  background-color:#A1BECC;
 }
 
+li a {
+  display: block;
+  color: #940099;
+  padding: 8px 16px;
+  text-decoration: none;
+
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #fffcc6;
+  color:#000000;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 h1 {
-  color:black;
-  text-align: center;
+  background-color:  #A1BECC;
+}
+
+div {
+  background-color: lightblue;
 }
 
 p {
-  font-family: verdana;
-  font-size: 20px;
-  background: rgb(255, 102, 153);
+  background-color: white;
 }
+h1 {
+  background-color:#A1BECC;
+  text-shadow: 2px 2px 5px grey;
+}
+h2 {
+  text-shadow: 2px 2px 5px grey;
+}
+   
