@@ -1,3 +1,4 @@
+
 ul {
   list-style-type: none;
   font-weight:900;
@@ -25,12 +26,27 @@ h1 {
   background-color:  #A1BECC;
 }
 
+
+/* screen reader only rule */
+.hidden {
+  position: absolute;
+  top: auto;
+  left: -10000px;
+  width: 1px;
+height: 1px;
+overflow: hidden;
+}
+/* screen reader end rule */
+
+
+
+
 div {
   background-color: lightblue;
 }
 
 p {
-  background-color: white;
+  background-color: #A1BECC;
 }
 h1 {
   background-color:#A1BECC;
@@ -38,5 +54,4 @@ h1 {
 }
 h2 {
   text-shadow: 2px 2px 5px grey;
-}
-   
+} 
